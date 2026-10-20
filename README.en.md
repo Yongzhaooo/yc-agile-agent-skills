@@ -62,6 +62,7 @@ Across sessions ─> $wayfinder (resume a long-running project) / $handoff (hand
 | `local-ci` | Original | Set up, run and maintain local CI: single entry script, fast/full tiers, pass-stamp to avoid duplicate runs, git hooks, and split with remote CI. | `$local-ci Check or set up local CI script and pre-push hook, then run full verification.` |
 | `github-release-recovery` | Original | Tags, Actions artifacts, and GitHub Releases disagree or the release workflow fails; diagnose layer by layer and restore a reproducible release. | `$github-release-recovery Find out why this tag did not produce a downloadable release.` |
 | `clean-action` | Original | Only when the user calls it explicitly: shorten the execution path of the current task and stop when done. | `$clean-action Finish this fix by the shortest verifiable path.` |
+| `fact-checked-guide` | Original | Fact-check a video, news story, or article against primary sources and produce a corrected Chinese guide or a claim-by-claim check table; includes a Bilibili transcript fetcher. | `$fact-checked-guide Check the numbers and quotes in this news story claim by claim.` |
 
 ## Language
 
