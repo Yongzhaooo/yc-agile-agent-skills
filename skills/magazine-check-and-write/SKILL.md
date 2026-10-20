@@ -1,14 +1,15 @@
 ---
-name: fact-checked-guide
-description: Fact-check a video, news story, or article against primary sources and turn it into a correct, readable Chinese article or a claim-by-claim check report. Handles Bilibili links (BV id, URL, b23.tv) with a bundled transcript fetcher; other videos, news pages, and pasted text work from their supplied text. Use when asked to proofread or verify a news item, video, or article, or to turn it into a guide, digest, or summary. Not for plain translation or prose polishing without fact-checking.
+name: magazine-check-and-write
+description: Fact-check a video, news story, or article against primary sources, then write it up as a correct, readable Chinese magazine-style feature, or return a claim-by-claim check report. Handles Bilibili links (BV id, URL, b23.tv) with a bundled transcript fetcher; other videos, news pages, and pasted text work from their supplied text. Use when asked to proofread or verify a news item, video, or article, or to turn it into a feature, guide, digest, or summary. Not for plain translation or prose polishing without fact-checking.
 ---
 
-# Fact-Checked Guide
+# Magazine Check and Write
 
-The reader wants to understand the topic, not reread the source. Accuracy outranks
-fidelity to the author: a summary that faithfully repeats errors leaves the reader with
-wrong impressions. The deliverable is either a correct, relaxed Chinese article with a
-technical appendix, or a check report when the user only wants verification.
+Write the magazine piece the reader would want to read in spare time: they want to
+understand the topic, not reread the source. Accuracy outranks fidelity to the author:
+a piece that faithfully repeats errors leaves the reader with wrong impressions. The
+deliverable is either a correct, relaxed Chinese feature with a technical appendix, or
+a check report when the user only wants verification.
 
 ## 1. Get the source text
 

@@ -62,7 +62,7 @@
 | `local-ci` | 原创 | 建立、运行与维护仓库本地 CI（单入口脚本、fast/full 分层、pass-stamp 避免重复运行、git hooks 与远程 CI 分工）。 | `$local-ci 检查或设置本地 CI 脚本与 pre-push 钩子，并在发布前运行完整验证。` |
 | `github-release-recovery` | 原创 | 标签、Actions artifact 和 GitHub Release 状态不一致或发布流程失败时，分层诊断并恢复可复现发布。 | `$github-release-recovery 检查这个 tag 为什么没有生成可下载的 Release。` |
 | `clean-action` | 原创 | 仅在用户明确调用时，压缩当前任务的执行路径并在完成后停止。 | `$clean-action 按最短可验证路径完成这个修复。` |
-| `fact-checked-guide` | 原创 | 对照一手来源核查视频、新闻或文章，输出纠错后的中文导读或逐条核查表；内置 B 站字幕抓取。 | `$fact-checked-guide 核查这条新闻里的数字和引语，给出逐条结论。` |
+| `magazine-check-and-write` | 原创 | 对照一手来源核查视频、新闻或文章，写成纠错后的中文杂志式文章或逐条核查表；内置 B 站字幕抓取。 | `$magazine-check-and-write 核查这条新闻里的数字和引语，给出逐条结论。` |
 
 ## 语言
 
