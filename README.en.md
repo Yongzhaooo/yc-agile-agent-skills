@@ -20,6 +20,7 @@ In the "Origin" column, **original** means I wrote the skill, and **adapted** me
 ## Workflow skills
 
 ```text
+Not sure where to start ─> $route-work (names the next skill to call, then stops)
 Understand ──> $repo-map (unfamiliar or multi-file codebase)
 Clarify ─────> $grilling ──> $run-pilot (only when feasibility is unproven; stops at evidence)
                $proposal-review (review an approach that has been proposed)
@@ -63,6 +64,7 @@ Across sessions ─> $wayfinder (resume a long-running project) / $handoff (hand
 | `github-release-recovery` | Original | Tags, Actions artifacts, and GitHub Releases disagree or the release workflow fails; diagnose layer by layer and restore a reproducible release. | `$github-release-recovery Find out why this tag did not produce a downloadable release.` |
 | `clean-action` | Original | Only when the user calls it explicitly: shorten the execution path of the current task and stop when done. | `$clean-action Finish this fix by the shortest verifiable path.` |
 | `magazine-check-and-write` | Original | Fact-check a video, news story, or article against primary sources and write a corrected Chinese magazine-style feature or a claim-by-claim check table; includes a Bilibili transcript fetcher. | `$magazine-check-and-write Check the numbers and quotes in this news story claim by claim.` |
+| `route-work` | Contributed | Only when the user calls it explicitly: from the current situation, name the next skill to call, the route after it, and the points that need a human decision, then stop without running anything. Concept inspired by [ask-matt](https://www.aihero.dev/skills-ask-matt). | `$route-work I'm starting a new project from scratch. Which skill comes first?` |
 
 ## Language
 
@@ -203,6 +205,8 @@ Choose a Stop That Shit mode for the actual task, for example `$stop-that-shit r
 This repository is released under the MIT License. MyAgents is my personal skill source repository; this is a curated public version with deployment metadata removed. Updates come from reviewed source, not a mirror of runtime directories.
 
 **Original** (written by me): `repo-map`, `proposal-review`, `maintainer-review`, `product-spec`, `codex-delegation`, `claude-delegation`, `agy-assist`, `agy-execution`, `test-verification`, `bounded-filesystem-cleanup-safety`, `github-release-recovery`, `clean-action`.
+
+**Contributed** (written by another contributor; no third-party content copied): `route-work`.
 
 **Adapted** (based on and modifying MIT-licensed upstream content):
 
